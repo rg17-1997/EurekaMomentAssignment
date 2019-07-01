@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/back"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/white60"
+        android:text="User Details"
+        android:layout_margin="20dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:textColor="@color/white60"
+        android:textColorHint="@color/white60"
+        android:backgroundTint="@color/white60"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth - dd/mm/yy"
+        android:textSize="20dp"
+        android:inputType="date"
+        android:layout_margin="20dp"
+        android:textColor="@color/white60"
+        android:textColorHint="@color/white60"
+        android:backgroundTint="@color/white60"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:textColor="@color/white60"
+        android:textColorHint="@color/white60"
+        android:backgroundTint="@color/white60"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone No"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        android:textColor="@color/white60"
+        android:textColorHint="@color/white60"
+        android:backgroundTint="@color/white60"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="Submit"
+        android:layout_margin="20dp"
+        android:textColor="@color/white60"
+        android:textSize="20dp"
+        android:id="@+id/btn_submit"/>
+
+
+
+</LinearLayout>
